@@ -1,0 +1,12 @@
+datasets
+pandas
+numpy
+scikit-learn
+xgboost
+catboost
+fastapi
+uvicorn
+joblib
+matplotlib
+seaborn
+python-multipart
