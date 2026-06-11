@@ -135,15 +135,9 @@ Testing data: 411 samples
 
 ### AdaBoost
 
-AdaBoost was trained using a decision tree base estimator. It works by training weak learners one by one and giving more focus to the wrongly classified samples.
-
 ### XGBoost
 
-XGBoost is an optimized gradient boosting model. It usually performs well on structured numerical features, and in this project it worked well with TF-IDF features.
-
 ### CatBoost
-
-CatBoost is another boosting algorithm. It is commonly useful for categorical data, but it can also be used for classification problems with numerical features.
 
 All three models were trained and compared because the task required using AdaBoost, XGBoost and CatBoost.
 
@@ -246,8 +240,6 @@ Example output:
 ## 15. Limitations
 
 The main limitation of this project is that the labels were created using a keyword-based scoring method. This means the model is learning from automatically generated labels, not expert-labelled financial risk data.
-
-Another limitation is that TF-IDF does not deeply understand context. For example, it may treat words based on frequency and importance, but it may not fully understand the meaning of long financial statements.
 
 Also, the model was trained on a sample of the dataset instead of the full dataset, mainly to keep training time and memory usage manageable.
 
