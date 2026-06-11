@@ -39,10 +39,10 @@ def predict(request: PredictionRequest):
     #input text
     input_text = request.text
 
-    #clean text
+    
     cleaned_text = clean_text(input_text)
 
-    #truncate text
+    
     cleaned_text = truncate_text(cleaned_text, max_chars=10000)
 
     #Convert text to TF-IDF features
