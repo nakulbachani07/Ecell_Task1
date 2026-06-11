@@ -201,8 +201,4 @@ models/label_encoder.joblib
 
 This project uses a keyword-based method to create labels because the dataset did not already contain direct risk labels. So the labels are useful for this task, but they are not the same as expert human-labelled financial risk categories.
 
-Also, TF-IDF works well for basic text classification, but it does not deeply understand meaning like transformer-based models. In future improvements, embeddings or finance-specific language models can be used.
-
-## Author
-
 Nakul Bachani
