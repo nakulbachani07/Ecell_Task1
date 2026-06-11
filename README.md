@@ -197,7 +197,7 @@ models/tfidf_vectorizer.joblib
 models/label_encoder.joblib
 ```
 
-## Limitations
+# Limitations
 
 This project uses a keyword-based method to create labels because the dataset did not already contain direct risk labels. So the labels are useful for this task, but they are not the same as expert human-labelled financial risk categories.
 
